@@ -112,6 +112,7 @@ alias grh='git reset --hard'
 alias gbdr='git push origin --delete'
 alias gbd='git branch -d'
 alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData'
+alias dmb='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
 
 alias upco='sudo gem install cocoapods'
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
